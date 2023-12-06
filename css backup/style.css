@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2? family= Fira+Sans+Extra+Condensed:wght@100;400;500;700;800 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.centrar-h1 {
+    text-align: center; /* Centra horizontalmente el contenido */
+    margin-top: 20px; /* Margen superior de 20 píxeles */
+    margin-bottom: 20px; /* Margen inferior de 20 píxeles */
+}
+h1{
+    color: black;
+    text-transform: uppercase;
+}
+h2{
+    color: rgb(83, 81, 81);
+}
+h3{
+    color: rgb(83, 81, 81);
+}
+h4{
+    color: rgb(83, 81, 81);
+}
+h5{
+    color: rgb(83, 81, 81);
+}
+h6{
+    color: rgb(83, 81, 81);
+}
+header {
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    margin-top: 0;
+    text-align: center;
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    padding: 0px 20px; /* Ajusta el valor del relleno según el espacio que desees en los laterales */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    margin-top: 0;
+}
+
+.borde-redondo{
+    border-radius: 30px;
+}
+.imagenchica{
+    width: 300px; /* Ajusta el tamaño según tus preferencias */
+    height: auto;
+}
+
+.imagengrande {
+    width: 50%;
+    text-align: center;
+}
+
+.navbar {
+    list-style-type: none; /* Quita los marcadores de lista */
+    margin: 0; /* Elimina el margen predeterminado de la lista */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    background-image: linear-gradient(to right, #78f4be, #0fe9dc, #00daf5, #00c7ff, #5cb1ff, #88a7ff, #b898ff, #e684f1, #ec8aec, #f291e8, #f698e5, #f99fe2);
+    display: flex; /* Utiliza el modelo de caja flexible para alinear los elementos en línea horizontalmente */
+    top: 0
+}
+
+.navbar a {
+    float: left; /* Coloca los elementos en línea horizontal */
+    display: block; /* Hace que los enlaces ocupen todo el ancho disponible */
+    color: white; /* Color del texto de los enlaces */
+    text-align: center; /* Alineación del texto en el centro */
+    padding: 14px 16px; /* Espacio interno (arriba y abajo, izquierda y derecha) de los enlaces */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    height: 40px;
+    letter-spacing: 4px
+}
+.navbar li {
+    margin: 0;
+    padding: 0;
+}
+.navbar a {
+    color: white; /* Color del texto de los enlaces */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    padding: 15px; /* Espacio interno de los enlaces */
+}
+.navbar :hover {background-image: linear-gradient(to right top, #f904cf, #fb40d5, #fd5ddb, #fe74e0, #ff88e5);
+}
+/* Estilo para el contenedor del formulario */
+.logo1 {
+    width: 100%; /* Hace que la imagen ocupe todo el ancho disponible */
+    max-width: 500px; /* Establece un ancho máximo para la imagen, ajusta según sea necesario */
+    margin-top: 20px; /* Ajusta según sea necesario para agregar espacio entre la barra de navegación y la imagen */
+
+}
+.formulario-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: pink; /* Color de fondo rosa */
+}
+
+/* Estilo para el formulario */
+.mi-formulario {
+    width: 300px;
+    padding: 20px;
+    background-color: white; /* Fondo blanco para el formulario */
+    border: 2px solid #f0f0f0; /* Borde ligero alrededor del formulario */
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+/* Estilo para etiquetas */
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+/* Estilo para los campos de entrada y el área de texto */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"]
+input[type="time"]
+input[type="number"]
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para el botón de enviar */
+input[type="submit"] {
+    background-color: pink;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff007f; /* Cambio de color al pasar el ratón por encima< */
+}
+.formulario-de-pedido {
+    width: 600px;
+    padding: 20px;
+    background-color: white; /* Fondo blanco para el formulario */
+    border: 2px solid #f0f0f0; /* Borde ligero alrededor del formulario */
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+.formulario-container-pedido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* distancia del formulario */
+    background-color: white(245, 242, 244); /* Color de fondo rosa */
+}
+label {
+    color: #333; /* Cambia el color del texto del título */
+    font-size: 16px; /* Cambia el tamaño del texto del título */
+    }
+
+legend{
+    color: #ff007f;
+    text-decoration:underline;
+    font-size: 20px;
+    font-weight: bold;
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  .video-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .texto-contenedor {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -200%);
+    max-width: 80%; /* Puedes ajustar este valor según tus preferencias */
+    background-color: rgba(255, 192, 203, 0.7); /* Rosa transparente */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .texto-contenedor p {
+    color: white; /* Color del texto, puedes ajustar según tus preferencias */
+    font-size: 2vw; /* El tamaño del texto se ajusta automáticamente al ancho de la pantalla */
+    max-width: 100%; /* Evita que el texto se extienda más allá del ancho de la pantalla */
+    line-height: 1.5; /* Altura de línea para mejorar la legibilidad */
+  }
+
+      .boton-arriba {
+        display: inline-block;
+        background-color: #f592d4; /* Color de fondo del botón */
+        color: #fff; /* Color del texto */
+        padding: 10px 20px; /* Relleno del botón */
+        border: none; /* Borde del botón */
+        text-decoration: none; /* Quita el subrayado del enlace */
+        border-radius: 5px; /* Bordes redondeados */
+        transition: background-color 0.3s; /* Transición de color al pasar el ratón */
+    }
+    
+    .boton-arriba:hover {
+        background-color: #1f1f1f; /* Cambio de color al pasar el ratón por encima */
+    }
+    .tituloderecha{
+        text-align: right;
+        color: gray;
+        font-style: normal;
+        font-weight: normal;
+    }
+    .tituloizquierda{
+        text-align: left;
+        color: black;
+        font-style: normal;
+        font-weight: normal;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        background-color: rgb(226, 121, 186); /* Color de fondo negro */
+        color: white; /* Color del icono blanco */
+    }
+    /*.tiendaynovedades{
+        background-color: rgb(255, 255, 255);
+        border-top: solid 5px rgb(250, 248, 248);
+        border-right: solid 5px pink;
+        border-left:solid 5px pink ;
+        border-bottom: solid 5px pink;/*
+    }
+    .tiendaynovedades{
+        margin:20px 10px 10px 10px;
+        padding: 20px 10px 10px 10px;
+    
+/* Estilos para el icono de WhatsApp flotante */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px; /* Ajusta la posición vertical según tus preferencias */
+    right: 20px; /* Ajusta la posición horizontal según tus preferencias */
+    z-index: 1000;
+    background-color: none; /* Color de fondo de WhatsApp */
+    color: #fff; /* Color del ícono */
+    border-radius: 50%; /* Forma redonda */
+    padding: 10px; /* Tamaño del botón */
+    box-shadow:none /* Sombra */
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.whatsapp-float:hover {
+    background-color: #07b63c; /* Cambia el color de fondo al pasar el mouse por encima */
+}
+
+.imagendewhatsapp { width: 50px;
+    height: ;}
+    
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+    /* Estilos específicos para pantallas pequeñas, como celulares */
+    .body {
+        width: 100%;
+    }
+}
+
+/* Estilos para tabletas */
+@media (max-width: 768px) and (max-width: 1023px) {
+    /* Estilos específicos para tabletas */
+    .body {
+        width: 80%;
+    }
+}
+
+/* Estilos para pantallas más grandes, como computadoras */
+@media (max-width: 1024px){
+    /* Estilos específicos para pantallas grandes */
+    .body {
+        width: 70%;
+    }
+}
+    
+   
